@@ -1,6 +1,10 @@
 a = 0
 b = 2500
 
-for x in range(a, b):
-    if x % 2 == 5 and (x**2)%2 == 5:
-        print([x for x in range(a, b)])
+A = []
+
+for x in range(a+1, b):
+   if x % 10 == 1:
+      b = x ** 2
+      A.append(b)
+print(A)
